@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">LearnTravia</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="home.html" class="w3-bar-item w3-button"><i class="fa fa-home"></i> HOME</a>
+      <a href="book.html" class="w3-bar-item w3-button"><i class="fa fa-book"></i> BOOKS</a>
+      <a href="uni.html" class="w3-bar-item w3-button"><i class="fa fa-graduation-cap"></i> UNIVERSITY</a>
+      <a href="mock.html" class="w3-bar-item w3-button"><i class="fa fa-laptop-code"></i> MOCK TEST</a>
+      <a href="contact.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">BOOKS</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">UNIVERSITY</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">MOCK TEST</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+
+    <!-- Left Column -->
+    <div class="w3-third">
+
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="/w3images/avatar_hat.jpg" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+
+          </div>
+        </div>
+        <div class="w3-container">
+
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Exam Format</b></p>
+          <p>Verbal</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">1st section</div>
+          </div>
+          <p>Quantitative</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
+              <div class="w3-center w3-text-white">2nd section</div>
+            </div>
+          </div>
+          <p>Verbal Or Analytical</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">3rd section section</div>
+          </div>
+          <p>Analytical Writing</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">4th section</div>
+          </div>
+
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+          <p>IELTS</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+          <p>TOEFL</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></div>
+          </div>
+          <p>PTE</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
+          </div>
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Format</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>VERBAL</b></h5>
+
+          <p style="text-align: justify;">Verbal Reasoning questions appear in several formats, each of which is discussed in detail in the corresponding sections linked to below. About half of the measure requires you to read passages and answer questions on those passages. The other half requires you to read, interpret and complete existing sentences, groups of sentences or paragraphs.</p>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Quantitative</b></h5>
+
+          <p>Some of the Quantitative Reasoning questions are posed in real-life settings, while others are posed in purely mathematical settings. Many of the questions are "word problems," which must be translated and modeled mathematically. </p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Analytical Writing</b></h5>
+
+          <p>The Analytical Writing measure of the GRE General Test tests your critical thinking and analytical writing skills by assessing your ability to: </p>
+          <p>1) articulate and support complex ideas</p>
+          <p>2) construct and evaluate arguments</p>
+          <p>3) sustain a focused and coherent discussion</p>
+        </div>
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>English Tests</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>IELTS</b></h5>
+
+          <p>IELTS is an English language test for study, migration or work. Over three million people take our test every year. IELTS is accepted by more than 11,000 employers, universities, schools and immigration bodies around the world.</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>TOEFL</b></h5>
+
+          <p>The TOEFL iBT is one of the most popular English proficiency exams accepted at American and Canadian universities and education institutions abroad. Conducted by ETS, the TOEFL full form is the Test of English as a Foreign Language and the ETS TOEFL exam measures all four academic English skills - reading, listening, speaking and writing in a way they are used in classrooms across colleges and universities. Candidates eligible to appear for the TOEFL examination are in for a pleasant surprise as ETS has launched the TOEFL Home edition for candidates looking to take the TOEFL test during the pandemic from the safety of their homes.</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+
+          <h5 class="w3-opacity"><b>PTE</b></h5>
+          <p>PTE Slot Booking: Candidates looking to appear for their PTE exam are required to sign up for their PTE Exam Slot Booking before their PTE exam date. The full form of PTE is the Pearson Test of English more commonly referred to as PTE Academic and the PTE Exam is for aspirants wanting to study or work abroad where English is the primary language of communication. </p><br>
+        </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+
+  <!-- End Grid -->
+  </div>
+
+  <!-- End Page Container -->
+</div>
+
+
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Maharashtra,India</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +91 8356928731 </p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: LearnTravia@gmail.com</p>
+    <br>
+
+    <!-- Image of location/map -->
+
+  </div>
+</div>
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.669434283395!2d73.12548141489991!3d18.990200987137168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e866de88667f%3A0xc1c5d5badc610f5f!2sPillai%20College%20of%20Engineering%2C%20New%20Panvel!5e0!3m2!1sen!2sin!4v1655981158808!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Powered by <a href="http://localhost:63342/ip/templates/index.html?_ijt=fq16jrrit4ms8f2m8u26ie1uc7&_ij_reload=RELOAD_ON_SAVE#home" title="W3.CSS" target="_blank" class="w3-hover-text-green">LearnTravia</a></p>
+</footer>
+</body>
+</html>
