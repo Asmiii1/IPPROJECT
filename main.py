@@ -34,6 +34,15 @@ def index():
 def home():
     return render_template("home.html")
 
+@app.route("/book.html")
+def book():
+    return render_template("book.html")
+
+
+@app.route("/references.html")
+def ref():
+    return render_template("references.html")
+
 
 @app.route("/mock.html")
 def mock():
